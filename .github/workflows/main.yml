@@ -39,7 +39,7 @@ jobs:
           # Email that you use with heroku
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           # The appname to use for deploying/updating
-          heroku_app_name: bootcamp-backend
+          heroku_app_name: bootcamp21backend
           # The branch that you would like to deploy to Heroku
           branch: main
           # Will deploy using Dockerfile in project root.
