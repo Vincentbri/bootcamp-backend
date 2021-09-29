@@ -1,0 +1,4 @@
+{
+    "rootDIr" : "./",
+    "testRegex": "(\\.(test))\\.(js)$"
+}
