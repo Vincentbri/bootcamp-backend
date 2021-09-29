@@ -16,11 +16,8 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Docker Build & Push to Docker Hub
-
         uses: opspresso/action-docker@master
-
         with:
-
           args: --docker
         env:
           USERNAME: ${{ secrets.DOCKER_USERNAME }}
