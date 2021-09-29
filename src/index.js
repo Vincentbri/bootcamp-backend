@@ -14,7 +14,7 @@ app.use(function (req, res, next) {
     next()
 })
 
-const port = 3000
+const port = proess.env.PORT || 3000
 
 const library = {
     movies: 32,
